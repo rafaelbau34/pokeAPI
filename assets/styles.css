@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display&display=swap");
+
+.funnel-display-main {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Funnel Display", "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-box {
+  width: 500px;
+  height: 500px;
+  border: 10px solid lightslategray;
+  display: flex;
+  background-color: lightcoral;
+  border-radius: 10px;
+}
+
+.pokemon-info {
+  width: 250px;
+  height: 100%;
+  background-color: lightgreen;
+  display: flex;
+}
+
+.pokemon-list {
+  width: 250px;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  font-size: 18px;
+}
+
+.pokemon-name {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
