@@ -26,15 +26,17 @@
   height: 500px;
   border: 10px solid lightslategray;
   display: flex;
-  background-color: lightcoral;
+
   border-radius: 10px;
 }
 
 .pokemon-info {
   width: 250px;
   height: 100%;
+  flex-direction: column;
   background-color: lightgreen;
   display: flex;
+  align-items: center;
 }
 
 .pokemon-list {
@@ -53,4 +55,37 @@
   background-color: white;
   margin: 5px;
   padding: 5px;
+}
+
+.pokemon-info img {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.type-box {
+  padding: 3px;
+  margin: 5px;
+
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.pokemon-types {
+  margin-top: 15px;
+}
+
+.pokemon-description {
+  width: 230px;
+  height: 190px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 18px;
+  overflow: auto;
+  margin-top: 20px;
 }
